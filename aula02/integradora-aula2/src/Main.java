@@ -20,5 +20,7 @@ public class Main {
 
         System.out.println("Suas iniciais são:" + inicialDoNome + inicialDoSobrenome);
         System.out.println("Seu nome completo é " + nome + " " + sobrenome);
+
+        scanner.close();
     }
 }
